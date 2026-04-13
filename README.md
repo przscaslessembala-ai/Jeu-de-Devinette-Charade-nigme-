@@ -1,2 +1,2 @@
-# Jeu-de-Devinette-Charade-Enigme-
+# Jeu-de-Devinette-Charade-Enigme
 Votre divertissement notre priorité 
