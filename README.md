@@ -2,7 +2,8 @@
 
 > Une application web de quiz interactif avec validation par intelligence artificielle, classement en ligne et animations immersives.
 
-![Application Web](https://img.shields.io/badge/🌐-Application%20Web-7c4dff?style=flat-square)
+
+![Application Web](https://jeu-devinettes-enigmes.netlify.app/) cliquez ici
 ![Claude AI](https://img.shields.io/badge/🤖-Claude%20AI-ff4081?style=flat-square)
 ![Firebase](https://img.shields.io/badge/🔥-Firebase-f9ca24?style=flat-square)
 ![Projet Académique](https://img.shields.io/badge/🎓-Projet%20Académique-00c853?style=flat-square)
