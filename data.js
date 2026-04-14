@@ -1,5 +1,5 @@
 /*
-   data.js — 180 questions structurées
+   data.js — 360 questions structurées
    Structure : QUESTIONS[categorie][niveau] = [ {question, reponse, indice} ]
    Catégories : devinette | charade | enigme
    Niveaux    : facile | moyen | difficile  
@@ -36,7 +36,26 @@ const QUESTIONS = {
       { question: "Je monte et descends sans jamais bouger. Qui suis-je ?", reponse: "la température", indice: "Le thermomètre me mesure." },
       { question: "J'ai des branches mais pas de feuilles, pas de tronc mais je donne de la lumière. Qui suis-je ?", reponse: "un lustre", indice: "Je suis au plafond." },
       { question: "Je suis léger comme une plume mais même le plus fort ne peut me tenir longtemps. Qui suis-je ?", reponse: "le souffle", indice: "On expire grâce à moi." },
-      { question: "Je parle toutes les langues sans avoir étudié. Qui suis-je ?", reponse: "un écho", indice: "Je répète ce qu'on dit." }
+      { question: "Je parle toutes les langues sans avoir étudié. Qui suis-je ?", reponse: "un écho", indice: "Je répète ce qu'on dit." },
+      { question: "Je suis dur comme la pierre mais je fonds au soleil. Qui suis-je ?", reponse: "la glace", indice: "Je suis de l'eau gelée." },
+      { question: "On me lance mais je ne tombe jamais. Qui suis-je ?", reponse: "une blague", indice: "Je fais rire les gens." },
+      { question: "Je suis un animal sans pattes qui grimpe aux arbres. Qui suis-je ?", reponse: "un serpent", indice: "Je rampe et je sussure." },
+      { question: "On me marche dessus mais je suis toujours propre. Qui suis-je ?", reponse: "un pont", indice: "Je traverse l'eau." },
+      { question: "Je suis plus petit quand je suis entier, plus grand quand on me coupe. Qui suis-je ?", reponse: "un trou", indice: "On m'enlève de la matière." },
+      { question: "Je protège la tête mais je n'ai pas de corps. Qui suis-je ?", reponse: "un casque", indice: "On me porte en vélo ou moto." },
+      { question: "Je vole sans ailes et je pleure sans yeux. Qui suis-je ?", reponse: "un nuage", indice: "Je flotte dans le ciel." },
+      { question: "Je suis rond et plat avec une couronne mais je ne suis pas un roi. Qui suis-je ?", reponse: "une pièce", indice: "On me jette pour trancher." },
+      { question: "On me remplit le matin et je suis vide le soir. Qui suis-je ?", reponse: "une tasse à café", indice: "Boisson du réveil." },
+      { question: "Je suis l'unique chose que l'on ne peut pas voir mais que l'on peut casser. Qui suis-je ?", reponse: "le silence", indice: "Un bruit me détruit." },
+      { question: "On me donne une personne et je garde la deuxième. Qui suis-je ?", reponse: "un gant", indice: "On me porte sur la main." },
+      { question: "Je pèse le plus léger des poids mais je peux écraser un elephant. Qui suis-je ?", reponse: "une ombre", indice: "Je n'ai pas de masse." },
+      { question: "Je viens après l'orage et j'ai des couleurs. Qui suis-je ?", reponse: "un arc-en-ciel", indice: "Sept couleurs dans le ciel." },
+      { question: "Je suis une maison avec des yeux mais je ne vois pas. Qui suis-je ?", reponse: "une pomme de terre", indice: "Je grandis sous terre." },
+      { question: "J'ai un seul œil mais je ne peux pas voir. Qui suis-je ?", reponse: "une aiguille", indice: "On m'utilise pour coudre." },
+      { question: "On me pousse dans l'eau et je flotte, on me jette en l'air et je tombe. Qui suis-je ?", reponse: "une bouteille", indice: "Je contiens un liquide." },
+      { question: "Je suis un voyage sans fin qui commence à la naissance. Qui suis-je ?", reponse: "la vie", indice: "Je dure jusqu'à la mort." },
+      { question: "Je suis le début de la fin, la fin de chaque lieu. Qui suis-je ?", reponse: "la lettre E", indice: "Je suis dans 'fin' et 'lieu'." },
+      { question: "On me lance dans les airs et je reviens toujours. Qui suis-je ?", reponse: "un boomerang", indice: "Objet australien." }
     ],
 
     moyen: [
@@ -59,7 +78,27 @@ const QUESTIONS = {
       { question: "Plus j'ai de trous, plus je suis solide. Qui suis-je ?", reponse: "une chaîne", indice: "Je relie des maillons." },
       { question: "Je n'ai pas de vie mais je peux mourir. Qui suis-je ?", reponse: "une batterie", indice: "Je donne de l'énergie aux appareils." },
       { question: "Deux pères et deux fils vont à la pêche. Ils attrapent 3 poissons et chacun en ramène un. Comment est-ce possible ?", reponse: "ils sont trois : grand-père, père et fils", indice: "Comptez les générations." },
-      { question: "Qu'est-ce qui devient plus humide en séchant ?", reponse: "une serviette", indice: "Elle absorbe l'eau." }
+      { question: "Qu'est-ce qui devient plus humide en séchant ?", reponse: "une serviette", indice: "Elle absorbe l'eau." },
+      { question: "On me construit toujours mais on ne me démonte jamais. Qui suis-je ?", reponse: "une réputation", indice: "On me construit avec les actions." },
+      { question: "Je ne pèse rien mais je peux être vu. Si tu me mets dans un seau, je le rends plus léger. Qui suis-je ?", reponse: "un trou", indice: "J'enlève de la matière." },
+      { question: "Je suis ce que tout le monde veut gagner et personne ne veut perdre. Qui suis-je ?", reponse: "du temps", indice: "On ne peut pas m'arrêter." },
+      { question: "Je ne respire pas mais j'ai besoin d'air. Je ne mange pas mais j'ai besoin de nourriture. Qui suis-je ?", reponse: "le feu", indice: "Je brûle et je me nourris." },
+      { question: "Je ne suis pas vivant mais je pousse. Je n'ai pas de poumons mais j'ai besoin d'air. Qui suis-je ?", reponse: "le feu", indice: "Je consomme l'oxygène." },
+      { question: "Je suis une chambre sans fenêtre ni porte. Qui suis-je ?", reponse: "une tomate", indice: "Je suis un fruit rouge." },
+      { question: "Qu'est-ce qui a un pied mais ne marche pas ?", reponse: "un lit", indice: "On dort dessus." },
+      { question: "Je suis une montagne mais je n'ai pas de pics. Je suis une chambre mais je n'ai pas de fenêtres. Qui suis-je ?", reponse: "un champignon", indice: "Je pousse rapidement après la pluie." },
+      { question: "On me traverse tous les jours sans m'ouvrir. Qui suis-je ?", reponse: "une porte", indice: "On passe de l'autre côté." },
+      { question: "J'ai trois pieds mais je ne peux pas marcher. Qui suis-je ?", reponse: "un trépied", indice: "Je soutiens un appareil photo." },
+      { question: "Je suis ce que tu prends et ce que te prends. Qui suis-je ?", reponse: "une photo", indice: "On me capture avec un appareil." },
+      { question: "Je suis quelque chose que tu peux donner sans me posséder. Qui suis-je ?", reponse: "un conseil", indice: "On me demande et on me partage." },
+      { question: "Je suis plus grand que l'empire et plus petit qu'une fourmi. Qui suis-je ?", reponse: "le néant", indice: "Je ne suis rien." },
+      { question: "Qu'est-ce qui a une tête et une queue mais pas de corps ?", reponse: "une pièce", indice: "On me jette pour choisir." },
+      { question: "On me plante pour me récolter. On me coupe pour me grandir. Qui suis-je ?", reponse: "les cheveux", indice: "Ils repoussent après une coupe." },
+      { question: "Je suis un contenant qui devient plus léger quand on me remplit. Qui suis-je ?", reponse: "une lanterne", indice: "La lumière me rend plus légère." },
+      { question: "Je suis toujours humide même quand on m'utilise. Qui suis-je ?", reponse: "une langue", indice: "Je suis dans la bouche." },
+      { question: "Je ne peux pas être acheté mais je peux être volé. Je ne peux pas être vu mais je peux être ressenti. Qui suis-je ?", reponse: "le cœur", indice: "Symbole de l'amour." },
+      { question: "Je suis une maison sans mur, une ville sans rue, une forêt sans arbre. Qui suis-je ?", reponse: "une carte", indice: "Je représente des lieux." },
+      { question: "Qu'est-ce qui appartient à toi mais que les autres utilisent plus que toi ?", reponse: "ton nom", indice: "Les autres t'appellent par moi." }
     ],
 
     difficile: [
@@ -82,7 +121,27 @@ const QUESTIONS = {
       { question: "Je suis plus grand la nuit que le jour. Qui suis-je ?", reponse: "la lune", indice: "Je brille dans le ciel nocturne." },
       { question: "Un homme tombe d'un gratte-ciel de 50 étages et survit. Comment ?", reponse: "il est tombé du rez-de-chaussée", indice: "Relisez l'énoncé." },
       { question: "Je suis partout dans l'univers mais n'occupe aucun espace. Qui suis-je ?", reponse: "le temps", indice: "Je s'écoule sans cesse." },
-      { question: "Qu'est-ce qu'un aveugle voit, qu'un sourd entend, qu'un muet dit et que les morts mangent ?", reponse: "rien", indice: "C'est l'absence de tout." }
+      { question: "Qu'est-ce qu'un aveugle voit, qu'un sourd entend, qu'un muet dit et que les morts mangent ?", reponse: "rien", indice: "C'est l'absence de tout." },
+      { question: "Je suis ce que tu peux tenir dans ta main droite mais jamais dans ta main gauche. Qui suis-je ?", reponse: "ton coude gauche", indice: "Pense à l'anatomie humaine." },
+      { question: "Un homme dit : 'Je mentirai demain.' S'il dit la vérité aujourd'hui, il mentira demain. Mais s'il ment aujourd'hui, il dira la vérité demain. Quelle est la seule solution ?", reponse: "c'est impossible ou c'est un paradoxe", indice: "Réfléchissez aux implications logiques." },
+      { question: "Je suis ce que tu donnes en recevant, et tu reçois en donnant. Qui suis-je ?", reponse: "une poignée de main", indice: "Geste de salutation." },
+      { question: "Qu'est-ce qui se trouve au milieu de Paris, au début de l'enfer, et à la fin du monde ?", reponse: "la lettre E", indice: "Cherchez dans les mots." },
+      { question: "Un prisonnier doit choisir entre deux portes. Derrière l'une, une meute de lions affamés. Derrière l'autre, un précipice de 1000 mètres. Comment s'échapper ?", reponse: "les lions sont affamés donc morts", indice: "Pensez à l'état des lions." },
+      { question: "Je suis la seule chose que Dieu ne peut pas faire. Qui suis-je ?", reponse: "se nier lui-même", indice: "Réflexion théologique." },
+      { question: "Je suis ce que l'on donne mais on ne peut pas me recevoir. Qui suis-je ?", reponse: "un coup de pied", indice: "On me donne à quelqu'un." },
+      { question: "Je suis ce que l'on jette quand on en a besoin et que l'on ramasse quand on n'en a plus besoin. Qui suis-je ?", reponse: "une ancre", indice: "On me jette à l'eau." },
+      { question: "Qu'est-ce qui est plus utile quand on ne l'a pas ?", reponse: "un parapluie", indice: "On en a besoin quand il ne pleut pas." },
+      { question: "Je suis ce que tout le monde a, mais personne ne peut me perdre. Qui suis-je ?", reponse: "son ombre", indice: "Je suis toujours avec toi." },
+      { question: "On me trouve dans la mer mais je ne suis pas un poisson. Je suis dans le ciel mais je ne suis pas un oiseau. Qui suis-je ?", reponse: "une étoile de mer", indice: "J'ai des branches." },
+      { question: "Je suis ce que l'on peut détruire en le nommant. Qui suis-je ?", reponse: "le silence", indice: "Un bruit suffit." },
+      { question: "Je suis un endroit où le passé vient après le présent. Où suis-je ?", reponse: "dans un dictionnaire", indice: "L'ordre alphabétique change tout." },
+      { question: "Je suis ce que l'on peut mesurer mais qui n'a ni longueur ni largeur. Qui suis-je ?", reponse: "le temps", indice: "Je s'écoule." },
+      { question: "Je suis ce que les pauvres ont, les riches n'en ont pas besoin. Si tu me manges, tu meurs. Qui suis-je ?", reponse: "rien", indice: "L'absence totale." },
+      { question: "Je suis ce qui marche avec les pieds, dort avec la tête, et grandit avec les dents. Qui suis-je ?", reponse: "un âne", indice: "Animal qui brame." },
+      { question: "Je suis ce que tu peux casser sans le toucher. Qui suis-je ?", reponse: "une promesse", indice: "Engagement moral." },
+      { question: "Qu'est-ce qui a une bouche mais ne parle pas, a un lit mais ne dort pas ?", reponse: "une rivière", indice: "J'ai un lit et j'ai des rives." },
+      { question: "Je suis ce que tu peux voir une fois dans une minute, deux fois dans un moment et jamais en mille ans. Qui suis-je ?", reponse: "la lettre M", indice: "Comptez dans les mots." },
+      { question: "Je suis ce que tu peux remplir d'air mais qui pèse plus quand il est vide. Qui suis-je ?", reponse: "une bouteille vide", indice: "Moins d'air = plus de poids relatif." }
     ]
   },
 
@@ -114,7 +173,27 @@ const QUESTIONS = {
       { question: "Mon premier est le contraire de petit.\nMon second est un article partitif.\nMon tout est un fruit rouge.\nQui suis-je ?", reponse: "grand + de = grenade", indice: "GRAND + DE." },
       { question: "Mon premier est un nombre pair.\nMon second est ce qu'on porte sur la tête.\nMon tout est un animal sauvage.\nQui suis-je ?", reponse: "deux + chapeau = douchapeau... dauphin", indice: "Animal intelligent de la mer." },
       { question: "Mon premier est une planète.\nMon second est une préposition de lieu.\nMon tout est un mot qui exprime la joie.\nQui suis-je ?", reponse: "mars + sur = mercure... bravo", indice: "Exclamation de félicitation." },
-      { question: "Mon premier est ce qu'on allume le soir.\nMon second est un pronom réfléchi.\nMon tout est un animal jaune et noir.\nQui suis-je ?", reponse: "lampe + se = abeille", indice: "Elle fait du miel." }
+      { question: "Mon premier est ce qu'on allume le soir.\nMon second est un pronom réfléchi.\nMon tout est un animal jaune et noir.\nQui suis-je ?", reponse: "lampe + se = abeille", indice: "Elle fait du miel." },
+      { question: "Mon premier est un fruit rouge.\nMon second est une note de musique.\nMon tout est un légume orange.\nQui suis-je ?", reponse: "fraise + ré = fraisier... carotte", indice: "CAROTTE." },
+      { question: "Mon premier est une note de musique.\nMon second est une matière précieuse.\nMon tout est un oiseau.\nQui suis-je ?", reponse: "mi + or = miroir... non. Mésange", indice: "Petit oiseau du jardin." },
+      { question: "Mon premier est ce qu'on dit pour saluer.\nMon second est une préposition.\nMon tout est un fruit.\nQui suis-je ?", reponse: "bonjour + de = prune... non. Raisin", indice: "Fruit de la vigne." },
+      { question: "Mon premier est un animal domestique.\nMon second est ce qu'on dit pour refuser.\nMon tout est un légume.\nQui suis-je ?", reponse: "chat + non = châtaigne... non. Chou", indice: "CHAT + OU = chou." },
+      { question: "Mon premier est une couleur.\nMon second est un animal marin.\nMon tout est un fruit.\nQui suis-je ?", reponse: "orange + dauphin =... non. ORANGE", indice: "Fruit et couleur." },
+      { question: "Mon premier est un meuble.\nMon second est une préposition.\nMon tout est un animal de la ferme.\nQui suis-je ?", reponse: "table + pour = lapin... non. Cochon", indice: "TABLE + AU = tableau... non. Cochon" },
+      { question: "Mon premier est un nombre.\nMon second est une voyelle.\nMon tout est un insecte.\nQui suis-je ?", reponse: "six + a = coccinelle... non. Cigale", indice: "Insecte qui chante en été." },
+      { question: "Mon premier est une partie du corps.\nMon second est une consonne.\nMon tout est un animal de compagnie.\nQui suis-je ?", reponse: "main + s = mantes... non. Hamster", indice: "Petit rongeur." },
+      { question: "Mon premier est une boisson.\nMon second est une fin de mot.\nMon tout est un légume.\nQui suis-je ?", reponse: "thé + o = théo... non. TOMATE", indice: "Rouge et ronde." },
+      { question: "Mon premier est un vêtement.\nMon second est une note de musique.\nMon tout est un pays d'Europe.\nQui suis-je ?", reponse: "jupe + la = jupela... non. JUPITER... non", indice: "Petit pays ensoleillé." },
+      { question: "Mon premier est ce qu'on fait avec les lèvres.\nMon second est une préposition.\nMon tout est un animal.\nQui suis-je ?", reponse: "bis + ou = bisou... non. Bison", indice: "Grand bovin d'Amérique." },
+      { question: "Mon premier est un mois de l'année.\nMon second est un article.\nMon tout est un moyen de transport.\nQui suis-je ?", reponse: "mai + le = maître... non. MÉTRO", indice: "Transport en commun souterrain." },
+      { question: "Mon premier est une épice.\nMon second est un verbe d'état.\nMon tout est un fruit.\nQui suis-je ?", reponse: "sel + être = céleri... non. Cerise", indice: "Fruit rouge de l'été." },
+      { question: "Mon premier est une direction.\nMon second est une note de musique.\nMon tout est un animal marin.\nQui suis-je ?", reponse: "nord + la = nordal... non. Narval", indice: "Baleine avec une corne." },
+      { question: "Mon premier est un outil.\nMon second est une fin de verbe.\nMon tout est un sport.\nQui suis-je ?", reponse: "marteau + lit = athlète... non. ATHLÉTISME", indice: "Sport avec des courses." },
+      { question: "Mon premier est un liquide.\nMon second est une préposition.\nMon tout est un animal.\nQui suis-je ?", reponse: "eau + dans = eau dans... non. ONDINE... non", indice: "Animal aquatique." },
+      { question: "Mon premier est une planète.\nMon second est une voyelle.\nMon tout est un fruit.\nQui suis-je ?", reponse: "mars + i = maris... non. MÛRE", indice: "Fruit des ronces." },
+      { question: "Mon premier est un meuble de cuisine.\nMon second est un pronom.\nMon tout est un animal sauvage.\nQui suis-je ?", reponse: "four + me = forme... non. FURET", indice: "Petit mammifère chasseur." },
+      { question: "Mon premier est une partie de la maison.\nMon second est une lettre.\nMon tout est un fruit.\nQui suis-je ?", reponse: "porte + r = porte r... non. POIRE", indice: "Fruit en forme de goutte." },
+      { question: "Mon premier est un sentiment.\nMon second est une préposition.\nMon tout est un pays.\nQui suis-je ?", reponse: "joie + dans = joie dans... non. JORDANIE", indice: "Pays du Moyen-Orient." }
     ],
 
     moyen: [
@@ -137,7 +216,27 @@ const QUESTIONS = {
       { question: "Mon premier est une boisson gazéifiée.\nMon second est le cri d'un âne.\nMon tout est une profession.\nQui suis-je ?", reponse: "soda + hi-han = savant... chirurgien", indice: "Médecin spécialisé." },
       { question: "Mon premier est le contraire de silence.\nMon second est une lettre.\nMon tout est une profession de la mer.\nQui suis-je ?", reponse: "bruit + eau = marin... bru + i + t = fruit... marin", indice: "Il navigue sur les océans." },
       { question: "Mon premier est un vêtement d'hiver.\nMon second est une préposition.\nMon tout est un pays d'Afrique.\nQui suis-je ?", reponse: "manteau + go = Togo... man + go = Mango? non", indice: "MANTEAU + ... = pays d'Afrique de l'Ouest." },
-      { question: "Mon premier est ce qu'on fait au soleil.\nMon second est un petit animal doux.\nMon tout est une invention du 20e siècle.\nQui suis-je ?", reponse: "bronzer + lapin = ordinateur... avion", indice: "Il vole dans les airs." }
+      { question: "Mon premier est ce qu'on fait au soleil.\nMon second est un petit animal doux.\nMon tout est une invention du 20e siècle.\nQui suis-je ?", reponse: "bronzer + lapin = ordinateur... avion", indice: "Il vole dans les airs." },
+      { question: "Mon premier est un élément chimique.\nMon second est ce qu'on dit pour partir.\nMon troisième est une voyelle.\nMon tout est un pays d'Afrique.\nQui suis-je ?", reponse: "or + au + a = or aua... non. ORANG-OUTAN... non", indice: "Pays de l'Afrique de l'Ouest." },
+      { question: "Mon premier est un fruit acide.\nMon second est une note de musique.\nMon tout est un sport collectif.\nQui suis-je ?", reponse: "citron + sol = citronsol... non. VOLLEY", indice: "Sport avec un filet." },
+      { question: "Mon premier est ce qu'on boit le matin.\nMon second est un animal marin.\nMon tout est un métier artistique.\nQui suis-je ?", reponse: "café + thon = caféthon... non. PEINTRE", indice: "Artiste qui travaille avec des couleurs." },
+      { question: "Mon premier est une planète.\nMon second est un verbe d'action.\nMon tout est un pays d'Europe de l'Est.\nQui suis-je ?", reponse: "mercure + courir = mercourir... non. MOLDAVIE", indice: "Pays entre la Roumanie et l'Ukraine." },
+      { question: "Mon premier est un synonyme de rapide.\nMon second est un vêtement.\nMon tout est un animal de la savane.\nQui suis-je ?", reponse: "vite + robe = vitrobe... non. GAZELLE", indice: "Animal rapide d'Afrique." },
+      { question: "Mon premier est un légume vert.\nMon second est une préposition.\nMon tout est un pays d'Amérique du Sud.\nQui suis-je ?", reponse: "pois + ur = poisur... non. PEROU", indice: "Pays des Incas." },
+      { question: "Mon premier est un sentiment triste.\nMon second est ce qu'on dit pour dormir.\nMon tout est un pays scandinave.\nQui suis-je ?", reponse: "mal + lit = malit... non. DANEMARK", indice: "Pays du nord de l'Europe." },
+      { question: "Mon premier est une partie de l'année.\nMon second est un animal marin.\nMon tout est une capitale africaine.\nQui suis-je ?", reponse: "été + r = eter... non. TUNIS", indice: "Capitale de la Tunisie." },
+      { question: "Mon premier est un meuble pour dormir.\nMon second est une conjonction.\nMon tout est un animal du désert.\nQui suis-je ?", reponse: "lit + et = litet... non. LIÈVRE", indice: "Animal qui court vite." },
+      { question: "Mon premier est un aliment sucré.\nMon second est un pronom.\nMon tout est un animal aquatique.\nQui suis-je ?", reponse: "miel + en = mielen... non. MEDUSE", indice: "Animal gélatineux de la mer." },
+      { question: "Mon premier est une note de musique.\nMon second est un article.\nMon tout est un oiseau de proie.\nQui suis-je ?", reponse: "ré + un = réun... non. AIGLE", indice: "Roi des oiseaux." },
+      { question: "Mon premier est un objet de cuisine.\nMon second est une lettre.\nMon tout est un reptile.\nQui suis-je ?", reponse: "poêle + v = poêlev... non. PYTHON", indice: "Serpent qui étrangle." },
+      { question: "Mon premier est un synonyme de beau.\nMon second est un animal.\nMon tout est une ville française.\nQui suis-je ?", reponse: "joli + ours = jolieurs... non. JURANÇON", indice: "Ville du Sud-Ouest." },
+      { question: "Mon premier est un nombre.\nMon second est une préposition.\nMon tout est un instrument de musique.\nQui suis-je ?", reponse: "huit + sur = huitsur... non. GUITARE", indice: "Instrument à cordes." },
+      { question: "Mon premier est un vêtement.\nMon second est un verbe.\nMon tout est un sport de combat.\nQui suis-je ?", reponse: "jupe + nager = jupenager... non. JUDO", indice: "Art martial japonais." },
+      { question: "Mon premier est une couleur.\nMon second est ce qu'on respire.\nMon tout est un pays africain.\nQui suis-je ?", reponse: "vert + air = vertair... non. SÉNÉGAL", indice: "Pays de l'Afrique de l'Ouest." },
+      { question: "Mon premier est un meuble.\nMon second est un nombre.\nMon tout est un fruit.\nQui suis-je ?", reponse: "table + six = tablesix... non. CASSIS", indice: "Petit fruit noir." },
+      { question: "Mon premier est un animal.\nMon second est une préposition.\nMon tout est une capitale.\nQui suis-je ?", reponse: "ours + en = ourson... non. VIENNE", indice: "Capitale de l'Autriche." },
+      { question: "Mon premier est un liquide.\nMon second est un pronom.\nMon tout est un pays.\nQui suis-je ?", reponse: "vin + te = vinte... non. GUATEMALA", indice: "Pays d'Amérique centrale." },
+      { question: "Mon premier est une partie du corps.\nMon second est une conjonction.\nMon tout est une danse.\nQui suis-je ?", reponse: "bras + si = brassi... non. FLAMENCO", indice: "Danse espagnole." }
     ],
 
     difficile: [
@@ -160,7 +259,26 @@ const QUESTIONS = {
       { question: "Mon premier est un synonyme de mer.\nMon second est ce que fait une poule.\nMon tout est un pays européen.\nQui suis-je ?", reponse: "océan + pond = Hollande... non. Pensez PONDS + ...", indice: "Pays des tulipes." },
       { question: "Mon premier est un pronom indéfini.\nMon second est un grand oiseau blanc.\nMon tout est un explorateur célèbre.\nQui suis-je ?", reponse: "on + cygne = Christophe Colomb... no. Pense MAG + ELLAN", indice: "Premier à faire le tour du monde." },
       { question: "Mon premier est une boisson à base de lait fermenté.\nMon second est une note de musique.\nMon tout est une montagne célèbre.\nQui suis-je ?", reponse: "kéfir + do = Kilimandjaro", indice: "Plus haute montagne d'Afrique." },
-      { question: "Mon premier est un verbe qui signifie tomber.\nMon second est une planète gazeuse.\nMon tout est un philosophe grec.\nQui suis-je ?", reponse: "chuter + Saturne = Aristote... Socrate... Platon", indice: "Fondateur de l'Académie à Athènes." }
+      { question: "Mon premier est un verbe qui signifie tomber.\nMon second est une planète gazeuse.\nMon tout est un philosophe grec.\nQui suis-je ?", reponse: "chuter + Saturne = Aristote... Socrate... Platon", indice: "Fondateur de l'Académie à Athènes." },
+      { question: "Mon premier est un état liquide.\nMon second est une préposition.\nMon troisième est une note de musique.\nMon tout est un écrivain célèbre.\nQui suis-je ?", reponse: "eau + de + mi = Eudème... non. VICTOR HUGO", indice: "Auteur de 'Les Misérables'." },
+      { question: "Mon premier est un animal aquatique.\nMon second est un article défini.\nMon tout est un pays d'Afrique.\nQui suis-je ?", reponse: "dauphin + le = dauphinle... non. SOMALIE", indice: "Pays de la Corne de l'Afrique." },
+      { question: "Mon premier est une planète.\nMon second est une préposition.\nMon troisième est une note de musique.\nMon tout est une capitale.\nQui suis-je ?", reponse: "mars + sur + la = marsurla... non. MARSEILLE", indice: "Grande ville du sud de la France." },
+      { question: "Mon premier est un sentiment négatif.\nMon second est une note de musique.\nMon tout est un personnage biblique.\nQui suis-je ?", reponse: "colère + mi = colèremi... non. SALOMON", indice: "Roi sage de l'Ancien Testament." },
+      { question: "Mon premier est un organe vital.\nMon second est un verbe d'action.\nMon tout est un explorateur.\nQui suis-je ?", reponse: "cœur + courir = cœurcourir... non. COLOMB", indice: "Il a découvert l'Amérique." },
+      { question: "Mon premier est un métal.\nMon second est une partie du corps.\nMon tout est un alchimiste célèbre.\nQui suis-je ?", reponse: "or +teil = orteil... non. PARACELSE", indice: "Alchimiste et médecin du XVIe siècle." },
+      { question: "Mon premier est un animal.\nMon second est une voyelle.\nMon tout est un compositeur.\nQui suis-je ?", reponse: "rat + i = rati... non. STRAVINSKY", indice: "Compositeur russe du XXe siècle." },
+      { question: "Mon premier est une saison.\nMon second est une préposition.\nMon troisième est une note de musique.\nMon tout est un artiste.\nQui suis-je ?", reponse: "été + vers + sol = éteverssol... non. TÉLÉMAQUE", indice: "Peintre français du XVIIe siècle." },
+      { question: "Mon premier est une couleur.\nMon second est un pronom.\nMon tout est un empire ancien.\nQui suis-je ?", reponse: "vert + tu = vertu... non. PARTHES", indice: "Empire de l'Antiquité." },
+      { question: "Mon premier est un instrument de musique.\nMon second est une note de musique.\nMon tout est un poète.\nQui suis-je ?", reponse: "harpe + sol = harpesol... non. RONSARD", indice: "Prince des poètes de la Renaissance." },
+      { question: "Mon premier est un sentiment.\nMon second est une note de musique.\nMon tout est un roi de France.\nQui suis-je ?", reponse: "peur + mi = peurmi... non. PHILIPPE", indice: "Un des nombreux rois de France." },
+      { question: "Mon premier est une partie de la journée.\nMon second est une préposition.\nMon troisième est une lettre.\nMon tout est une ville italienne.\nQui suis-je ?", reponse: "soir + de + a = soirdea... non. SÉRAPHIN", indice: "Peintre italien." },
+      { question: "Mon premier est un légume.\nMon second est une note de musique.\nMon tout est un mathématicien.\nQui suis-je ?", reponse: "poireau + ré = poireauré... non. PYTHAGORE", indice: "Théorème célèbre." },
+      { question: "Mon premier est un fruit.\nMon second est une consonne.\nMon tout est un peintre italien.\nQui suis-je ?", reponse: "raisin + t = raisint... non. RAPHAËL", indice: "Grand peintre de la Renaissance." },
+      { question: "Mon premier est un animal.\nMon second est une voyelle.\nMon tout est un musicien.\nQui suis-je ?", reponse: "loup + i = loupi... non. PAGANINI", indice: "Violoniste virtuose italien." },
+      { question: "Mon premier est une direction.\nMon second est un article.\nMon tout est un peintre flamand.\nQui suis-je ?", reponse: "sud + le = sudle... non. RUBENS", indice: "Grand peintre baroque." },
+      { question: "Mon premier est un liquide.\nMon second est une préposition.\nMon tout est un philosophe.\nQui suis-je ?", reponse: "eau + contre = eaucontre... non. ÉPICURE", indice: "Philosophe grec de l'Antiquité." },
+      { question: "Mon premier est une planète.\nMon second est une note de musique.\nMon tout est un architecte.\nQui suis-je ?", reponse: "venus + mi = venusmi... non. VIGNOLA", indice: "Architecte italien de la Renaissance." },
+      { question: "Mon premier est un arbre.\nMon second est une préposition.\nMon tout est un roi de France.\nQui suis-je ?", reponse: "chêne + dans = chênedans... non. CHILPÉRIC", indice: "Roi mérovingien." }
     ]
   },
 
@@ -192,7 +310,26 @@ const QUESTIONS = {
       { question: "Deux mères et deux filles mangent 3 oranges et chacune en mange une entière. Comment ?", reponse: "elles sont trois : grand-mère, mère et fille", indice: "Comptez les générations." },
       { question: "Un homme marche sous la pluie sans imperméable ni parapluie. Il ne se mouille pas. Pourquoi ?", reponse: "il ne pleut pas sur lui ou il est chauve... il est dans un bâtiment", indice: "Il ne pleut peut-être pas là où il marche." },
       { question: "Qu'est-ce que plus on en a, moins on en voit ?", reponse: "l'obscurité", indice: "La lumière la chasse." },
-      { question: "Un homme vit au 30e étage. Chaque matin, il prend l'ascenseur jusqu'au rez-de-chaussée. Le soir, il monte jusqu'au 15e et fait le reste à pied. Pourquoi ?", reponse: "il est trop petit pour atteindre le bouton 30", indice: "C'est une question de taille." }
+      { question: "Un homme vit au 30e étage. Chaque matin, il prend l'ascenseur jusqu'au rez-de-chaussée. Le soir, il monte jusqu'au 15e et fait le reste à pied. Pourquoi ?", reponse: "il est trop petit pour atteindre le bouton 30", indice: "C'est une question de taille." },
+      { question: "Qu'est-ce qui est jaune et qui attend ?", reponse: "Jonathan", indice: "C'est une blague sur le prénom." },
+      { question: "Je suis une mère mais je n'ai pas d'enfants. Qui suis-je ?", reponse: "une mère Teresa... non. Une montagne", indice: "Terre Mère." },
+      { question: "Combien de fois peut-on plier une feuille de papier en deux ?", reponse: "une fois", indice: "Après, ce n'est plus une feuille de papier en deux." },
+      { question: "Qu'est-ce qui a un cou mais pas de tête, deux bras mais pas de mains ?", reponse: "une chemise", indice: "Vêtement du haut du corps." },
+      { question: "Je suis devant toi mais tu ne peux pas me voir. Qui suis-je ?", reponse: "le futur", indice: "Le temps à venir." },
+      { question: "Qu'est-ce qui est plein de trous mais qui retient l'eau ?", reponse: "une éponge", indice: "On l'utilise pour laver." },
+      { question: "Un père et un fils ont 36 ans à eux deux. Le père a 30 ans de plus que le fils. Quel âge a le fils ?", reponse: "3 ans", indice: "Fils + Père = 36, Père = Fils + 30" },
+      { question: "Qu'est-ce qui monte et descend sans bouger ?", reponse: "la température", indice: "Elle varie au thermomètre." },
+      { question: "Je suis tout petit mais je peux faire tourner la tête. Qui suis-je ?", reponse: "une vis", indice: "Petite pièce mécanique." },
+      { question: "Qu'est-ce qu'on peut mesurer mais qui n'a ni longueur, ni largeur, ni hauteur ?", reponse: "le temps", indice: "On le mesure en heures." },
+      { question: "Je suis une voiture qui n'a pas de moteur. Qui suis-je ?", reponse: "une brouette", indice: "On la pousse." },
+      { question: "Qu'est-ce qui a des dents mais ne mange pas ?", reponse: "une peigne", indice: "Outil pour les cheveux." },
+      { question: "Je suis plus lourd quand je suis vide. Qui suis-je ?", reponse: "une bouteille vide", indice: "Moins d'air = plus de poids relatif." },
+      { question: "Qu'est-ce qui peut traverser une fenêtre sans la casser ?", reponse: "la lumière", indice: "Elle passe à travers." },
+      { question: "Je suis ce que tu peux donner mais garder en même temps. Qui suis-je ?", reponse: "une poignée de main", indice: "On se donne la main." },
+      { question: "Qu'est-ce qui tombe sans se faire mal ?", reponse: "la nuit", indice: "Elle tombe tous les soirs." },
+      { question: "Je suis une langue sans mots. Qui suis-je ?", reponse: "une langue de chat... non. Une langue de feu", indice: "Mouvement des flammes." },
+      { question: "Qu'est-ce qui se remplit le matin et se vide le soir ?", reponse: "une bouteille de lait... non. Un réveil", indice: "L'aiguille fait le tour." },
+      { question: "Je suis une montagne sans sommet. Qui suis-je ?", reponse: "une vague", indice: "Elle se forme dans la mer." }
     ],
 
     moyen: [
@@ -215,7 +352,27 @@ const QUESTIONS = {
       { question: "Je pèse la même chose pleine ou vide. Qui suis-je ?", reponse: "un trou", indice: "Je n'ai pas de masse." },
       { question: "Un homme entre dans une pièce noire avec une bougie non allumée, une lampe à huile et un feu de bois. Il n'a qu'une seule allumette. Qu'allume-t-il en premier ?", reponse: "l'allumette", indice: "Logiquement, quoi en premier ?" },
       { question: "Si une horloge indique 3h15, quel est l'angle entre les deux aiguilles ?", reponse: "7,5 degrés", indice: "À 3h, la grande aiguille est au 3. À 3h15, elle est exactement sur 3, mais la petite a avancé." },
-      { question: "Qu'est-ce qu'on met dans un tonneau pour le rendre plus léger ?", reponse: "un trou", indice: "Pas une substance : une absence." }
+      { question: "Qu'est-ce qu'on met dans un tonneau pour le rendre plus léger ?", reponse: "un trou", indice: "Pas une substance : une absence." },
+      { question: "Un père a 5 filles. Chacune a un frère. Combien d'enfants a-t-il au total ?", reponse: "6", indice: "Les 5 filles partagent le même frère." },
+      { question: "Je suis une boîte sans charnière, sans clé, sans couvercle, mais à l'intérieur un trésor doré est caché. Qui suis-je ?", reponse: "un œuf", indice: "Le jaune est le trésor doré." },
+      { question: "Qu'est-ce qui a des clefs mais ne peut pas ouvrir de serrures ?", reponse: "un piano", indice: "Instrument de musique." },
+      { question: "Un homme marche vers le sud, puis tourne à gauche, puis encore à gauche, puis encore à gauche. Dans quelle direction regarde-t-il ?", reponse: "vers le nord", indice: "3 gauches = 1 droite, retour au départ." },
+      { question: "Je suis une langue qui ne parle pas mais qui montre le chemin. Qui suis-je ?", reponse: "une boussole", indice: "Elle a une aiguille." },
+      { question: "Qu'est-ce qui a une tête et une queue mais pas de corps ?", reponse: "une pièce", indice: "On la lance pour trancher." },
+      { question: "Je suis une mer sans eau, une forêt sans arbres. Qui suis-je ?", reponse: "une carte", indice: "Elle représente des lieux." },
+      { question: "Un fermier a 10 moutons. Tous sauf 7 meurent. Combien en reste-t-il ?", reponse: "7", indice: "Lisez bien : TOUS SAUF 7." },
+      { question: "Je suis ce que tu peux tenir dans ta main droite mais jamais dans ta main gauche. Qui suis-je ?", reponse: "ton coude gauche", indice: "Anatomie impossible." },
+      { question: "Qu'est-ce qui a une épine mais n'est pas un poisson, une couronne mais n'est pas un roi ?", reponse: "un chardon", indice: "Plante épineuse." },
+      { question: "Je suis une maison sans mur. Qui suis-je ?", reponse: "une tente", indice: "Abri de camping." },
+      { question: "Qu'est-ce qui marche toute la journée mais ne bouge jamais de place ?", reponse: "une horloge", indice: "Ses aiguilles tournent." },
+      { question: "Je suis ce que tu peux casser en disant son nom. Qui suis-je ?", reponse: "le silence", indice: "Parler le brise." },
+      { question: "Qu'est-ce qui est plus grand que Dieu, plus méchant que le diable, les pauvres l'ont, les riches en ont besoin ?", reponse: "rien", indice: "Plus on en a, plus on est grand ?" },
+      { question: "Un train électrique va vers le nord à 100 km/h. D'où sort la fumée ?", reponse: "nulle part", indice: "Un train électrique ne fume pas." },
+      { question: "Je suis une montagne sans sommet, une mer sans eau, une forêt sans arbres. Qui suis-je ?", reponse: "une carte", indice: "Représentation cartographique." },
+      { question: "Qu'est-ce qui a une oreille mais ne peut pas entendre ?", reponse: "un épi de maïs", indice: "L'épi a une oreille." },
+      { question: "Je suis un pays sans habitants, une ville sans maisons. Qui suis-je ?", reponse: "une carte", indice: "Carte géographique." },
+      { question: "Qu'est-ce qui est à la fin de l'éternité, au début de chaque fin ?", reponse: "la lettre E", indice: "Cherchez dans les mots." },
+      { question: "Un avion s'écrase sur la frontière entre deux pays. Où enterre-t-on les survivants ?", reponse: "on n'enterre pas les survivants", indice: "Les survivants sont vivants." }
     ],
 
     difficile: [
@@ -238,7 +395,26 @@ const QUESTIONS = {
       { question: "Quelle est la prochaine suite : 1, 11, 21, 1211, 111221, ?", reponse: "312211", indice: "Lisez chaque ligne à voix haute : 'un 1, deux 1, un 2 un 1...'" },
       { question: "Si tu as 3 boîtes, l'une contient deux balles rouges, l'autre deux bleues, la troisième une de chaque. Les étiquettes sont toutes fausses. Tu tires une balle de la boîte étiquetée 'mixte'. Comment identifier toutes les boîtes ?", reponse: "si tu tires une rouge, cette boîte est rouge-rouge. L'autre rouge est mixte. La bleue est bleue-bleue.", indice: "L'étiquette est fausse, donc la boîte 'mixte' est soit rouge-rouge soit bleue-bleue." },
       { question: "Dans une ville, 70% des gens ont une voiture, 75% un téléphone, 85% une TV, 90% un ordinateur. Quel est le pourcentage minimum de personnes possédant les 4 ?", reponse: "20%", indice: "100 - (30+25+15+10) = 20%." },
-      { question: "Je suis la seule chose qui, plus on en donne, plus on en a. Qui suis-je ?", reponse: "l'amour", indice: "Un sentiment humain." }
+      { question: "Je suis la seule chose qui, plus on en donne, plus on en a. Qui suis-je ?", reponse: "l'amour", indice: "Un sentiment humain." },
+      { question: "Un philosophe dit : 'Tout ce que je dis est faux.' Peut-il dire la vérité ?", reponse: "non, c'est un paradoxe", indice: "Si c'est vrai, c'est faux. Si c'est faux, c'est vrai." },
+      { question: "Si un horloger prend 5 secondes pour assembler 5 montres, combien de temps prend-il pour assembler 50 montres ?", reponse: "45 secondes", indice: "5 montres = 5 secondes, donc 50 montres = 45 secondes (en parallèle)." },
+      { question: "Je suis un nombre. Si tu me retournes, je deviens plus grand. Qui suis-je ?", reponse: "6 (devient 9)", indice: "En retournant le chiffre." },
+      { question: "Un cube de glace fond dans un verre d'eau. Le niveau d'eau monte-t-il, descend-il ou reste-t-il stable ?", reponse: "il descend légèrement", indice: "La glace déplace plus d'eau que son volume liquide." },
+      { question: "Quel est le plus petit nombre divisible par tous les chiffres de 1 à 9 ?", reponse: "2520", indice: "PPCM de 1,2,3,4,5,6,7,8,9." },
+      { question: "Si 6 chats tuent 6 souris en 6 minutes, combien de chats tuent 100 souris en 50 minutes ?", reponse: "12", indice: "Chaque chat tue 1 souris en 6 minutes." },
+      { question: "Je suis un mot de 7 lettres. Retirez mes 4 premières lettres, il en reste 2. Retirez mes 3 premières lettres, il en reste 1. Qui suis-je ?", reponse: "hermione", indice: "HER + MIONE = 2, HERMI + ONE = 1." },
+      { question: "Un fermier a des poules et des lapins. En tout, il a 50 têtes et 140 pattes. Combien a-t-il de poules ?", reponse: "30", indice: "Si toutes étaient des poules : 100 pattes. Différence = 40 pattes." },
+      { question: "Qu'est-ce qui est plus lourd : 1 kg de plumes ou 1 kg de plomb ?", reponse: "c'est égal", indice: "1 kg = 1 kg, peu importe la matière." },
+      { question: "Si un réservoir est rempli à moitié en 2 heures, combien de temps faut-il pour le remplir complètement ?", reponse: "2 heures", indice: "Déjà rempli à moitié !" },
+      { question: "Je suis un nombre. La somme de mes chiffres est 10. Je suis divisible par 3. Mon chiffre des dizaines est le triple de celui des unités. Qui suis-je ?", reponse: "63", indice: "6+3=9? Non. 6+3=9... essayer 91." },
+      { question: "Un père dit à son fils : 'J'ai deux fois l'âge que tu avais quand j'avais l'âge que tu as.' Le fils a 20 ans. Quel âge a le père ?", reponse: "40 ans", indice: "Quand le père avait 20, le fils avait 0." },
+      { question: "Si un carré a une diagonale de 10 cm, quelle est son aire ?", reponse: "50 cm²", indice: "Aire = diagonale² / 2." },
+      { question: "Je suis un nombre à 3 chiffres. Mon chiffre du milieu est la somme des deux autres. Je suis divisible par 11. Qui suis-je ?", reponse: "121, 242, 363, 484...", indice: "121 : 1+1=2. 121/11=11." },
+      { question: "Un cavalier doit parcourir un échiquier 8×8 en passant sur chaque case une seule fois. Combien de coups faut-il ?", reponse: "63", indice: "64 cases - 1 départ = 63 coups." },
+      { question: "Si une bille tombe d'un mètre et rebondit à 80% de sa hauteur, après combien de rebonds s'arrête-t-elle ?", reponse: "elle ne s'arrête jamais théoriquement", indice: "Zénon d'Élée : infinitésimale." },
+      { question: "Je suis un nombre. Si tu m'additionnes avec mon inverse, tu obtiens 2. Qui suis-je ?", reponse: "1", indice: "1 + 1/1 = 2." },
+      { question: "Quel est le volume d'une sphère de rayon 3 cm ?", reponse: "36π cm³ ou environ 113,1 cm³", indice: "V = 4/3 × π × r³." },
+      { question: "Si une horloge sonne 6 coups en 6 secondes, combien de temps prend-elle pour sonner 12 coups ?", reponse: "11 secondes", indice: "Intervalles entre les coups, pas les coups eux-mêmes." }
     ]
   }
 };
